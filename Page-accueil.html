@@ -1,0 +1,110 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Page accueil connexion </title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3" id="logo"> <a href="file:///H:/Desktop/Projet%20site%20shelf%202/Page-accueil.html">
+        <img src="logo_shelf.png" class="logo_shelf">
+          </a> </div>
+    </div>
+    <div class="row">
+             <div class="col-lg-3" id="boxconnexion">
+             
+              <h1><font size="5" color="cfc7c2" face="arial">CONNECTE-TOI !</font> </h1>
+              <form class="formulaire" action="index.html">
+                  <p>Nom d'utilisateur</p>
+                  <br>
+                  <input type="text" name="" placeholder="Entrer le nom d'utilisateur"><br>
+                  <p>Mot de passe</p>
+                  <br>
+                  <input type="password" name="" placeholder="Entrer le mot de passe">
+                  <br>
+                  <a href="#">Mot de passe oublié ?</a>
+                  <br><br><br>
+            
+                  <input type="submit" name="button1" value="Connexion"> <button onclick="togglePopup()" class="first-button">S'inscrire</button>
+                 </form>
+                 
+                
+  
+            </div>
+            <div class="col-lg-1"></div>
+         
+
+             <div class="col-lg-7" id="Accueil">
+               <h2><b>Bienvenue !</b></h2>
+               <br>
+               <p>
+                  Tu as atteri sur le site de gestion d'emprunts de la bibliothèque <br> d'<a href="https://atilla.org/">ATILLA</a>.
+                  <br>
+                  <br>
+                 Le <b>SHELF</b> vous propose un service d'emprunts de livres pour vous faire découvrir nos nouveautés et suivre leur disponibilité en ligne.<br>
+                 <br>
+                 Il présente un large choix de ressources dédiées aux élèves : manuels scolaires, littérature, revues, documentaires... <br> Il y en a pour tous les goûts ! <br>
+
+                 <br>
+                 <br>
+                 <b>Connecte-toi</b> pour accéder à ton Espace personnel ou pour <br> découvrir notre sélection de livres ! <br>
+                  <br>
+                  <br>
+                  Pour toute question, écris-nous sur : <a href="mailto:asso-atilla@eisti.eu"> asso-atilla@eisti.eu</a>
+                  <br>
+                  <br>
+                  <br>
+                  On te souhaite une agréable lecture !
+                  <br>
+                  <br>
+
+                 <i> - L'équipe Atilla - </i>
+               </p>
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-lg-3" id="boxconnexion">
+                <a href="https://www.facebook.com/">
+                  <img src="logo_facebook.png" class="logo_facebook">
+                </a>
+                <a href="https://twitter.com/">
+                  <img src="logo_twitter.png" class="logo_twitter">
+                </a>
+                <a href="https://www.instagram.com/">
+                  <img src="logo_instagram.png" class="logo_instagram">
+                </a>
+              </div>
+             
+                  
+            <div class="col-lg-1"></div></div>
+          
+            <div class="popup" id="popup-1">
+              <div class="content">
+               <div class="close-btn" onclick="togglePopup()">
+                </div>
+
+           <h3>Créer un compte</h3>
+             <div class="input-field"> <input placeholder="Prénom" type="text" class="validate"></div><br>
+             <div class="input-field"> <input placeholder="Nom de famille" type="text" class="validate"></div><br>
+             <div class="input-field"> <input placeholder="Email" type="text" class="validate"></div><br>
+             <div class="input-field"> <input placeholder="Nouveau mot de passe" type="password" class="validate"></div><br>
+<br><br><br>
+               <button class="second-button">S'inscrire</button>
+               
+              </div>
+             </div>
+           
+ 
+           <script>
+            function togglePopup() {
+            document.getElementById("popup-1")
+             .classList.toggle("active");
+           }
+           </script>
+           </div>
+           </div>
+        </body>
+  </html>
