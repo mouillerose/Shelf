@@ -1,0 +1,12 @@
+<html>
+<head> </head>
+<body>
+	<form method ="POST">
+		{% csrf_token %}
+		{{form}}
+		<button type="submit">Login</button>
+        <p><a href="/register">Créez un compte</a></p>
+	</form>
+
+</body>
+</html>

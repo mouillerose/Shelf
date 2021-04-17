@@ -1,0 +1,5 @@
+[client]
+database = "shelf"
+user = "django"
+password = "M!ax123456"
+default-character-set = utf8
