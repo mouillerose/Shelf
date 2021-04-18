@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.boxmdpoublie {
+  width: 600px;
+  height: 723px;
+  background: #292929;
+  color: #fff;
+  top: 50%;
+  left: 19%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.logo_shelf {
+  width: 256px;
+  height: 144px;
+  border-radius:  50%;
+  position: relative;
+  top: -14%;
+  left: -3%;
+}
+
+.logo_facebook {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 83%;
+  left: -47%;
+}
+
+.logo_instagram {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 83%;
+  left: -49%;
+}
+
+.logo_twitter {
+  position: relative;
+  width: 22px;
+  height: 18px;
+  top: 83%;
+  left: -37%;
+}
+
+h1{
+  margin : 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  position: relative;
+  top: -7%;
+}
+
+.formulaire{
+  position: relative;
+  top : 2%;
+}
+
+
+.boxmdpoublie p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.boxmdpoublie input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.boxmdpoublie input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.boxmdpoublie input[type="submit"][name="button1"] {
+  border: none;
+  outline: none;
+  position: center;
+  height: 40px;
+  background: #ff9a73;
+  color:#fff;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 130px;
+  left: 1%;
+}
+
+.boxmdpoublie input[type="submit"][name="button2"] {
+
+  position: relative;
+  height: 40px;
+  background: #292929;
+  color:#fff;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 130px;
+  left: 7%;
+  border-color: #fff;
+}
+
+.boxmdpoublie input[type="submit"]:hover {
+  cursor: pointer;
+  background: #fda725 ;
+  color : #000;
+}
+
+.boxmdpoublie a{
+  text-decoration: none;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.boxmdpoublie a:hover {
+  color : #ffc107;
+}
+
+
+
+h2 {
+ font-size : 29px;
+ color: #f0a46d;
+}
+
+
+}
+
+
+
+
+
+
